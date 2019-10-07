@@ -1,0 +1,17 @@
+<div [ngClass]="'assigmnent'" *ngIf="machineData">Assignment</div>
+<!-- iterate over the object -->
+<div [ngClass]="'machineData'" *ngFor="let item of machineData | keyvalue">
+  <!-- Giving class based on machine status data. (does not work) -->
+  <div [ngClass]="'Object.keys(statusData)[item.key]'">
+    Machine name: {{ item.value.MACHINE }}
+  </div>
+  <div>Total net production for the machine: {{ item.value.PRODUCTION }}</div>
+  <div>
+    Percentage of scrap vs gross production: {{ item.value.SCRAP_PERCENTAGE }}
+  </div>
+  <div>
+    Percentage of downtime for a machine: {{ item.value.DOWNTIME_PERCENTAGE }}
+  </div>
+  <!-- Here would be a table (Iterating over this object does not work) -->
+  <div>{{ getHourData(item.value) }}</div>
+</div>

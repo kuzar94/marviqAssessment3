@@ -1,3 +1,5 @@
+I did the first task. I stopped iterating over objects in the new for me framework. Angular is a new technology for me. In react, the task would not be a problem for me. I spent most of my time learning the framework than on the task itself. I didn't have much time for it laso, I would probably need two more days to finish the task, and I will gladly do it during this time
+
 # MarviqAssessment3
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.8.

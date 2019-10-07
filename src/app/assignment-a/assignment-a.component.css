@@ -1,0 +1,21 @@
+.assigmnent {
+  color: rgb(53, 53, 53);
+  font-size: 1.5em;
+  margin: 10px;
+}
+.machineData {
+  margin: 10px;
+}
+
+.fatal\/red {
+  background-color: red;
+}
+.good\/green {
+  background-color: green;
+}
+.color {
+  background-color: rgb(115, 115, 255);
+}
+.warning\/orange {
+  background-color: orange;
+}
